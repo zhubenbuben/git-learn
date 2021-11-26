@@ -2,7 +2,10 @@
 git init
 git add README.md
 git commit -m "first commit"
+# 此处main为分支名
 git branch -M main
+# 此处origin为GitHub上该分支命 如这里的git-learn
+
 git remote add origin git@github.com:zhubenbuben/linux-learn.git
 git push -u origin main
 
